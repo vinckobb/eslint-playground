@@ -39,4 +39,12 @@ export class TestClass
 
         return a;
     }
+
+    /**
+     * bool
+     */
+    public test2() 
+    {
+        return false;
+    }
 }
