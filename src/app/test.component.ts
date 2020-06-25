@@ -25,4 +25,18 @@ export class TestClass
         }
         return a + b;
     }
+
+    /**
+     * test
+     * @param a string
+     */
+    public test(a: string) 
+    {
+        if (a === "test") 
+        {
+            return "nothing";
+        }
+
+        return a;
+    }
 }
