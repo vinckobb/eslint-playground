@@ -1,4 +1,5 @@
-export class TestClass {
+export class TestClass 
+{
     //######################### constructor #########################
 
     constructor()
@@ -11,9 +12,16 @@ export class TestClass {
      * @param a number one
      * @param b number two
      */
-    public sum(a: number, b: number) {
-        if (true) {
+    public sum(a: number, b: number) 
+    {
+        if (true) 
+        {
             a++;
+        }
+        
+        if (a > b) 
+        {
+            b++;
         }
         return a + b;
     }

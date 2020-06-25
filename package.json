@@ -17,6 +17,6 @@
         }
     },
     "lint-staged": {
-        "*.ts": "eslint --ext .ts src/app --fix-dry-run"
+        "*.ts": "eslint --ext .ts src/app --fix"
     }
 }
