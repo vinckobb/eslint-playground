@@ -13,7 +13,7 @@ export class TestClass {
      */
     public sum(a: number, b: number) {
         if (true) {
-            return "";
+            a++;
         }
         return a + b;
     }
